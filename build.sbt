@@ -7,7 +7,7 @@ ThisBuild / organizationName := "oschrenk"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "scampart",
+    name := "rampart.scala",
     libraryDependencies ++= Seq(
       catsCore,
       scalaTest % Test
