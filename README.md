@@ -1,5 +1,7 @@
 # Rampart
 
+![](https://github.com/oschrenk/rampart.scala/workflows/Scala%20CI/badge.svg)
+
 Determine how intervals relate to each other.
 
 rampart.scala is a Scala implementation of [tfausak/rampart](https://github.com/tfausak/rampart), as Haskell library, which in turn was inspired by [James F. Allen's, Maintaining Knowledge About Temporal Intervals](https://hdl.handle.net/1802/10574).
