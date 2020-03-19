@@ -16,7 +16,7 @@ It currently has a dependency on [cats](https://typelevel.org/cats/), specifical
 
 ```
 resolvers += Resolver.bintrayRepo("oschrenk", "maven")
-libraryDependencies += "dev.oschrenk" %% "rampart-scala" % "0.1.0"
+libraryDependencies += "dev.oschrenk" %% "rampart-scala" % "0.2.0"
 ```
 
 **Example**
