@@ -12,6 +12,15 @@ It currently has a dependency on [cats](https://typelevel.org/cats/), specifical
 
 ## Usage
 
+**Dependencies** in your `build.sbt`
+
+```
+resolvers += Resolver.bintrayRepo("oschrenk", "maven")
+libraryDependencies += "dev.oschrenk" %% "rampart-scala" % "0.1.0"
+```
+
+**Example**
+
 ```scala
   import Interval.{relate, toInterval}
   import cats.implicits._
@@ -27,3 +36,9 @@ It currently has a dependency on [cats](https://typelevel.org/cats/), specifical
 ## Terminology
 
 ![](./interval-relations.svg)
+
+## Publish
+
+```
+sbt publish
+```
